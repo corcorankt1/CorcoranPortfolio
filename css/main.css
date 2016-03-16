@@ -171,6 +171,25 @@ img {
   font-size: 18px;
 }
 
+.contact-me #input-button:visited {
+  background-color: #4D2D33;
+  color: #FFF;
+  text-align: center;
+  border: none;
+  margin-bottom: 30px; 
+  font-size: 18px;
+}
+
+.contact-me #input-button:focus {
+  background-color: #4D2D33;
+  color: #FFF;
+  text-align: center;
+  border: none;
+  margin-bottom: 30px; 
+  font-size: 18px;
+  outline: none;
+}
+
 .contact-me #input-button:hover {
    text-decoration: none;
    color: #FFF;
@@ -196,6 +215,27 @@ img {
   margin-bottom: 30px; 
   font-size: 18px;
   border: none;
+}
+
+.contact-me .btn-primary:visited {
+  background-color: #4D2D33;
+  color: #FFF;
+  text-align: center;
+  border: none;
+  margin-bottom: 30px; 
+  font-size: 18px;
+  border: none;
+}
+
+.contact-me .btn-primary:focus {
+  background-color: #4D2D33;
+  color: #FFF;
+  text-align: center;
+  border: none;
+  margin-bottom: 30px; 
+  font-size: 18px;
+  border: none;
+  outline: none;
 }
 
 .contact-me button:hover {
