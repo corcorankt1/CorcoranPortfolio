@@ -106,6 +106,25 @@ img {
   font-size: 18px;
 }
 
+.portfolio .btn-primary:visited {
+  background-color: #4D2D3B;
+  color: #FFF;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.portfolio .btn-primary:focus {
+  background-color: #4D2D3B;
+  color: #FFF;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  outline: none;
+}
+
 .portfolio .btn:hover {
    text-decoration: none;
    color: #FFF;
