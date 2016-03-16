@@ -1,0 +1,72 @@
+/*Header*/
+
+.header {
+  height: 150px;
+  background-color: #F4665E;
+  opacity: 0.8;
+}
+
+.header h1 {
+  margin-top: 10px;
+  text-align: center;
+  line-height: 150px;
+  font-family: "Arapey", serif;
+  font-size: 70px;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* Navigation */
+.nav {
+  text-align: center;
+  margin-top: 0;
+}
+
+.nav ul{
+  padding-left: 0;
+}
+
+.nav a {
+   text-decoration: none;
+   color: #F4665E;
+}
+
+.nav li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+/* Images Section - Home Page */
+
+h3 {
+  text-align: center;
+  color: #4D2D33;
+  font-size: 24px;
+}
+
+img {
+  border-radius: 50px;
+  -moz-box-shadow: 3px 3px 3px #B7C4C3;
+  -webkit-box-shadow: 3px 3px 3px #B7C4C3;
+  box-shadow: 3px 3px 3px #B7C4C3;
+}
+
+/* Contact Form */
+.contact-me {
+  color: #4D2D33;
+  background-color: #B7C4C3;
+  border-radius: 5px; 
+}
+
+.contact-me input {
+  border-radius: 5px;
+}
+
+.contact-me #input-button {
+  background-color: #F4665E;
+}
+
+.contact-me textarea {
+  border-radius: 5px;
+  border: 2px inset;
+}

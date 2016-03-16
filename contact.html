@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Katie Corcoran - Contact</title>
+		<link href="css/main.css" type="text/css" rel="stylesheet"/>
+		<link href='https://fonts.googleapis.com/css?family=Arapey:400,400italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<div class="header">
+			<h1>Katie Corcoran</h1>
+		</div>
+
+		<!-- Navigation -->
+		<div class="nav">
+			<ul>
+				<li><a href="CorcoranPortfolio.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+		<!-- Contact Form -->
+		<div class="contact-me">
+			<form action="#" method="#">
+				<fieldset>
+					<legend>Contact Me!</legend>
+					<label>
+						Name:
+						<br />
+						<input type="text" name="name" placeholder="First &amp Last Name"size="40">
+					</label>
+					<br />
+					<label>
+						Phone Number:
+						<br />
+						<input type="tel" pattern="[\(]\d{3}[\)]\d{3}[\-]\d{4}" name="telephone" placeholder="(555)555-5555" size="40">
+					</label>
+					<br />
+					<label>
+						Email:
+						<br />
+						<input type="email" name="email" placeholder="email@whatever.com" size="40">
+					</label>
+					<br />
+				<p>What is your preferred method of communication?
+					<br />
+					<label>
+						<input type="radio" name="preferred-method" value="email" checked="checked">
+						Email
+					</label>
+					<label>
+						<input type="radio" name="preferred-method" value="phone">
+						Phone
+					</label>
+				</p>
+				<p>
+					<label for="add-info">
+						Additional information:
+					</label>
+					<br />
+					<textarea rows="3" cols="40" id="add-info">
+					</textarea>
+				</p>
+				<input id="input-button" type="submit" value="Contact Me!">
+				</fieldset>
+		</div>
+
+	</body>
+</html>
